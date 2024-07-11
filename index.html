@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c2b534504.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGO.png" class="logo">
+               
+               <ul id="sidemenu">
+                
+                
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+               </ul>
+              
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> B.Tech Undergradute Student</p>
+                <h1>Welcome, I'm <br><span>Sheeba Nadeem</span> </h1>
+            </div>
+        </div>
+    </div>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/aboutme.png" > 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Sheeba Nadeem, a passionate and driven third-year student at SRM Institute of Science and Technology, pursuing a Bachelor of Technology in Computer Science Engineering with a specialization in Big Data Analytics.
+
+                        My journey in the world of technology has been fueled by a strong interest in web development, big data analytics, and machine learning. I thrive on exploring how data can be leveraged to uncover insights and drive decision-making, and I'm equally fascinated by the intricacies of designing and developing robust web applications.</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+              </div> 
+            <div class="tab-contents active-link" id="Skills">
+                <ul>
+                    <p>HARD SKILLS</p>
+                    <li>
+                        <span>python proficiency</span>
+                    </li>
+                    <li><span>html and css proficiency</span></li>
+                    <li><span>javascript proficiency</span></li>
+                    <li><span>figma</span></li>
+                    <li><span>SQL proficiency</span></li>
+                    <br>
+                    
+                    <p>SOFT SKILLS</p>
+                    <li>analytical and critical thinking</li>
+                    <li>communication skills</li>
+                    <li>problem solving</li>
+                    <br>
+
+                    <p>LANGUAGES</p>
+                    <li>English <br>-(full professional proficiency)</li>
+                    <li>Hindi <br>-(native proficiency)</li>
+                    <li>Bengali <br>-(limited working proficiency)</li>
+                    <li>French <br>-(elementary proficiency)</li>
+                    <li>Malyalam<br>-(elementary proficiency)</li>
+
+                
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+            
+                <ul>
+                    <P>INTERNSHIPS</P>
+                    <li>TimechainLabs summer of code <br> -blockchain intern</li>
+                    <li><span>TechnoHacks EduTech <br> -Web Devolpment intern</span></li>
+                    <P>HACKATHONS</P>
+                    <li><span>DSHack 2.0 <br>-Data Science Community SRM</span></li>
+                    <li><span>Sustainable Development Goals <br>-Directorate of Innovation and Entrepreneurship</span></li>
+                    <p>EXTRA CIRRICULAR</p>
+                    <li>Mind Mesh web development workshop <br>-IEEE Computational Intelligence Society SRM chapter</li>
+                    <li>PwC Switzerland Virtual job simulation <br>-forage</li>
+                    <li>Tata Group virtual job simulation <br>-forage</li>
+                </ul>
+
+            </div>
+            <div class="tab-contents" id="Education">
+            
+                <ul>
+                    <P>BACHELORS</P>
+                    <li><span>SRM Institute of Science and Technology <br> -Btech in computer science and engineering with specialisation in big data analytics <br>(currently in 3rd year) <br>-Kattankulathur,Tamil Nadu</span></li>
+                    <P>HIGHER SECONDARY & SECONDARY</P>
+                    <li><span>Indus Valley World School<br>-Kolkata,West Benagal</span></li>
+                
+                </ul>
+
+            </div>
+            </div>
+            </div>
+        </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">What I Offer :</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web <br>Development</h2>
+                   <p>
+                    <b>Projects:</b> Developed responsive websites. Participated in the Mind Mesh web development workshop. <br>
+                    <b>Learning:</b> Currently taking advanced courses on modern web frameworks</p>
+                  <a href="#">Learn more</a> 
+                </div>
+               <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Big data analytics</h2>
+                <p>
+                    <b>Simulations:</b> Participated in job simulations by PwC Switzerland and Tata Group, focusing on data visualization and business insights.
+                   <br> <b>Training:</b> Continuously learning through online courses and practical projects.</p>
+                   <a href="#">Learn more</a> 
+               </div>
+              <div><i class="fa-solid fa-laptop-code"></i>
+               <h2>Machine Learning</h2>
+               <p> <b>Projects:</b> Worked on machine learning projects during my coursework, including predictive modeling and data analysis. <br>
+                <b>Hackathons:</b> Applied machine learning techniques in hackathons such as SDG Hackathon and DSHack 2.0.
+            </p>
+            <a href="#">Learn more</a> 
+               </div>
+        </div>
+        </div>
+     </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sheebanadeem156@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sheeba-nadeem-528aa1244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sheebanadeem"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+
+    <script>
+
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(var tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(var tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+        
+    </script>
+</body>
+</html>
